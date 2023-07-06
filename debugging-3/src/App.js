@@ -5,15 +5,21 @@ function EmailInput() {
     const [email, setEmail] = useState(null);
 
     function valid(val) {
-        return val && val.indexOf('@') !== '-1'
+        return val && val.indexOf('@') !== -1;
     }
+    function dot(val) {
+        return val && val.indexOf(".") !== -1;
+    }
+
+
 
     return <div>
         <label htmlFor='email'>Email:</label>
         <input
             onChange={(e) => setEmail(e.target.value)}
             onBlur={() => {
-                if (!valid(email)) {
+            //   debugger 
+               if (!valid(email) && !dot(email)) {
                     alert('Email not valid')
                 }
             }

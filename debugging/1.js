@@ -12,5 +12,5 @@ function isValueFive(n) {
     return false
 }
 
-isValueFive(5)
+isValueFive("5")
 

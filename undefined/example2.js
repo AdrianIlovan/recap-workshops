@@ -1,6 +1,6 @@
 function sayHello() {
-    console.log("Hello");
+    console.log("console log from line 2: ", "Hello");
 }
 
-let result = sayHello();
-console.log(result);
+
+console.log("console log from line 6: ", sayHello());
