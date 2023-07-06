@@ -23,4 +23,6 @@ b) What will `result2` evaluate to? Explain your answer
 c) Try to summarise the main difference between `logSum` and `calculateSum`
 
 
-{YOUR ANSWERS HERE}
+{ result1 = 42;
+  result2 = undefined
+  Because console log is not returning}
