@@ -13,6 +13,9 @@ function getLargestNum(arr) {
     }
     return largestNum;
   }
-  let arr = [1, 2, 3, 4, 5, 10];
+  let arr = [ 10,20,30,40,50];
 
   getLargestNum(arr)
+  debugger
+  //I need some explaining on this one
+  //why largestNum += arr[i]; now is 70? why 70?

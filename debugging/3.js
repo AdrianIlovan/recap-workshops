@@ -14,3 +14,7 @@ function calculateAverage(arr) {
   
   let arr = [1, 2, 3, 4, 5];
   console.log(calculateAverage(arr));
+
+
+  //first return is 3 this is the average of the list
+  // sum = 15 / arr.length 5 ...15/5 = 3
