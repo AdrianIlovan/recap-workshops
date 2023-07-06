@@ -9,8 +9,8 @@ What do you think the output will look like?
 If some parts of the code are unfamiliar, then look them up on MDN.
 Write your prediction below:
 
-{}
+{*1, *2, *3...*9}
 
 Once you've written your prediction, then commit your work. Now actually run `0.js` using node and write your answer below:
 
-{ACTUAL OBSERVED BEHAVIOUR}
+{wasnt expecting that ... and why is it 10* is supposed to be <10 not <=10}

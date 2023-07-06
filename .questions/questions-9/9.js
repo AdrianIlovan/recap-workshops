@@ -4,7 +4,7 @@ function countAlphabetChars(str) {
 
     const count = 0;
 
-    while(count < ) {
+    while(count < 10) {
         if (str[i] === '@') {
             
         }
